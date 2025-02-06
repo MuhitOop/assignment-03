@@ -1,2 +1,10 @@
 @import "tailwindcss";
 @plugin "daisyui";
+
+@theme {
+  --color-primary-bg: rgb(255, 249, 244);
+  --color-cat-primary: rgb(255, 220, 38);
+  --color-cat-black: rgb(17, 17, 17);
+  --font-cat-sora: "Sora", "serif";
+  --font-cat-adlam: "ADLaM Display", "serif";
+}

@@ -1,12 +1,129 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./src/output.css">
-</head>
-<body>
-    
-</body>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Browse4Pets</title>
+    <link
+      rel="shortcut icon"
+      href="./c1-assets/logo-header.png"
+      type="image/png"
+    />
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Sora:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- font awesome cdn -->
+
+    <script
+      src="https://kit.fontawesome.com/2bcd907501.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- tailwind output -->
+    <link rel="stylesheet" href="./src/output.css" />
+  </head>
+  <body class="font-cat-sora">
+    <!-- header section -->
+    <header class="bg-primary-bg">
+      <nav
+        class="max-w-[1320px] mx-auto flex justify-between items-center py-8 px-4 lg:px-0"
+      >
+        <!-- logo section -->
+        <div class="flex items-center gap-2.5">
+          <img src="./c1-assets/logo-header.png" alt="" />
+          <h1 class="md:block hidden text-2xl">
+            Browse<span class="text-cat-primary">4</span>Pets
+          </h1>
+        </div>
+        <!-- links section -->
+        <div class="hidden lg:block">
+          <ul class="flex gap-8">
+            <li><a class="text-xl text-cat-black" href="#">Find a pet</a></li>
+            <li><a class="text-xl text-cat-black" href="#">Breeds</a></li>
+            <li><a class="text-xl text-cat-black" href="#">Contact us</a></li>
+          </ul>
+        </div>
+
+        <!-- button section -->
+        <div class="hidden lg:block">
+          <div class="flex items-center gap-5">
+            <i class="fa-regular fa-bell"></i>
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <a class="btn bg-transparent border-cat-primary" href="#">Login</a>
+            <a class="btn bg-cat-primary" href="#">Register</a>
+          </div>
+        </div>
+
+        <!-- dropdown menu -->
+        <div class="dropdown lg:hidden">
+          <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-5 w-5"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h8m-8 6h16"
+              />
+            </svg>
+          </div>
+          <ul
+            tabindex="0"
+            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
+          >
+            <li><a>Find a pet</a></li>
+            <li><a>Breeds</a></li>
+            <li><a>Contact us</a></li>
+          </ul>
+        </div>
+
+        <!-- dropdown menu end -->
+      </nav>
+    </header>
+
+    <!-- main section -->
+    <main class="max-w-[1320px] mx-auto">
+      <!-- hero section -->
+      <section class="my-20 relative ">
+        <div class="">
+          <img
+          class=""
+          src="./c1-assets/cat-big.png"
+          alt=""
+        />
+        </div>
+        <div class="absolute top-0">
+          <h1 class="text-6xl font-cat-adlam z-20">
+            Pamper Your Pet, <br />
+            Because They Deserve <br />
+            the Bes
+          </h1>
+          <p class="text-xl text-cat-black my-4">
+            Discover a world of treats, toys, and essentials handpicked for
+            <br />
+            your furry friends. Shop now and make tails wag with joy!
+          </p>
+          <button class="btn bg-cat-primary border-none text-xl">Find a pet</button>
+        </div>
+      </section>
+
+      <!-- catagory section  -->
+       <section class="my-20">
+        
+       </section>
+    </main>
+
+    <!-- footer section  -->
+    <footer></footer>
+  </body>
 </html>
