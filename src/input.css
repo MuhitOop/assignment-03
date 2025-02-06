@@ -6,6 +6,8 @@
   --color-cat-primary: rgb(255, 220, 38);
   --color-cat-black: rgb(17, 17, 17);
   --color-cat-card: rgb(249, 223, 138);
+  --color-cat-secondary: rgb(255, 249, 244);
+  --color-cat-border:rgba(17, 17, 17, 0.1);
   --font-cat-sora: "Sora", "serif";
   --font-cat-adlam: "ADLaM Display", "serif";
 }
