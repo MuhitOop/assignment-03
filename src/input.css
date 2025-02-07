@@ -8,6 +8,8 @@
   --color-cat-card: rgb(249, 223, 138);
   --color-cat-secondary: rgb(255, 249, 244);
   --color-cat-border:rgba(17, 17, 17, 0.1);
+  --color-cat-footer-bg:rgba(255, 220, 38, 0.5);
+  --color-cat-footer-text:rgba(17, 17, 17, 0.7);
   --font-cat-sora: "Sora", "serif";
   --font-cat-adlam: "ADLaM Display", "serif";
 }
