@@ -3,6 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-5VLRXHC5");
+    </script>
+    <!-- End Google Tag Manager -->
     <title>Browse4Pets</title>
     <link
       rel="shortcut icon"
@@ -28,6 +42,17 @@
     <link rel="stylesheet" href="./src/output.css" />
   </head>
   <body class="font-cat-sora">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-5VLRXHC5"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
     <!-- header section -->
     <header class="bg-primary-bg">
       <nav
@@ -53,7 +78,9 @@
         <div class="hidden lg:block">
           <div class="flex items-center gap-5">
             <i class="fa-regular fa-bell cursor-pointer"></i>
-            <a href="https://www.pexels.com/search/cat/" target="_blank"><i class="fa-solid fa-magnifying-glass cursor-pointer"></i></a>
+            <a href="https://www.pexels.com/search/cat/" target="_blank"
+              ><i class="fa-solid fa-magnifying-glass cursor-pointer"></i
+            ></a>
             <a class="btn bg-transparent border-cat-primary" href="#">Login</a>
             <a class="btn bg-cat-primary" href="#">Register</a>
           </div>
@@ -119,7 +146,9 @@
             <div
               class="w-[70px] h-[70px] flex justify-center items-center border-4 border-cat-primary rounded-full p-4 animate-bounce cursor-pointer"
             >
-              <a href="#img-gellary"><i class="fa-solid fa-angle-down text-4xl "></i></a>
+              <a href="#img-gellary"
+                ><i class="fa-solid fa-angle-down text-4xl"></i
+              ></a>
             </div>
           </div>
         </div>
